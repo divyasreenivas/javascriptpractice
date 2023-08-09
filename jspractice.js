@@ -57,3 +57,77 @@ console.log(3==="3")// this is false bcz === trats the int and string different
 console.log(3=="3")//this is true bcz == trats the string and the integer same 
 console.log(1>0)//t
 //document.querySelector(#-id ,.-class)
+//arrays
+let array =[
+    "myname",
+    "myage",
+    "content",
+    "myskills"
+]
+for (let i =0 ;i<=4;i++){
+    console.log(array[i])
+} 
+console.log(array.length)
+array.push("divya")
+console.log(array)
+array.pop(array[0])
+console.log(array)
+//returning the values of function in random
+let fastest =20
+let fastest2=21
+
+function fastestrace(){
+    if (fastest<fastest2){
+        return fastest
+    }else if (fastest >fastest2){
+        return fastest2
+    }else {
+        return fastest
+
+    }
+    
+}
+let fastestracer= fastestrace()
+console.log(fastestracer)
+
+function totalrace(){
+    return fastest+fastest2
+}
+let total = totalrace()
+console.log(total)
+// random number in js 
+let random = Math.random()*10
+console.log(random)
+
+//math.floor
+let floornum=Math.floor(3.876)
+console.log(floornum)
+//adding floor and mathrandom
+let randomnum =Math.floor(Math.random()*6)+1
+console.log(randomnum)
+//dice
+function rooldice(){
+    let random = Math.floor(Math.random()*6)+1
+    return random
+}
+console.log(rooldice())
+//logical AND operations
+let hascmpltd =true
+let givecertificate=true
+
+if (hascmpltd===true && givecertificate===true){
+   
+        generatecertificate()
+    }
+function  generatecertificate(){
+    console.log("certificate generation")
+
+}
+//objects
+
+
+
+
+
+
+
