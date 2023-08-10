@@ -200,6 +200,23 @@ function game(){
     return (hand[randomone])
 }
 console.log(game())
+//sortings 
+let fruits =["mango","apple","mango","mango","apple"]
+let mango = 0
+let apple = 0
+function sorting (){
+    for (let i =0 ;i<fruits.length;i++){
+        if (fruits[i]==="mango"){
+            mango = mango +1
+            console.log(mango)
+
+        }else if (fruits[i]==="apple"){
+            apple=apple+1
+            console.log( apple)
+        }
+    }
+}
+sorting()
 
 
 
