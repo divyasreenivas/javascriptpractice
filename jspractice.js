@@ -217,7 +217,21 @@ function sorting (){
     }
 }
 sorting()
+//event listeners by dom 
+// let box = document.getElementById("id -html")
+// box.addEventListener("click" ,function(){
+//     console.log("open box")
+         
+// })
+//two methods 
+for (let i = 0 ;i<myleads;i++){
+    ulEl.innerHTML +="<li>"+myleads[i]+</li>
 
+}
+//other way of doing it 
+//create element const li = document.createEleement("li")
+//set text content li.textcontent = mylead[i]
+//append ul ulEl.append(li)
 
 
 
