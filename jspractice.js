@@ -124,7 +124,67 @@ function  generatecertificate(){
 
 }
 //objects
+let learn ={
+    name : "div",
+    age :23,
+    skills:"js"
+}
+console.log(learn.name +learn.age+learn.skills)
 
+// to determine in document 
+//html tage <p id = "player-el"></p>
+//js code
+let learns ={
+    name : "div",
+    age :23,
+    skills:"js"
+}
+
+// let learning = document.getElementById("player-el")
+// learning .textContent(learns.name+learn.age+learn.skills)
+//objects practice 
+ let person={
+    name:"divya",
+    age:23,
+    country:"india"
+ }
+
+ //functions practice
+function logData(){
+    console.log(person.name +"is"+person.age+"old lives in "+person.country)
+}
+logData()
+
+//objects and functions
+let ages =15
+
+if (ages<6){
+    console.log("free")
+}else if (ages >=6 && ages <=17){
+    console.log("discount")
+}else if (ages>=18 && ages <=26){
+    console.log("studentdiscount")
+}else if (ages>=27 && ages <=66){
+    console.log("fullprice")
+}else{
+    console.log("senior")
+}
+//llops and srrays 
+let country =["china ","india","us","indonesia","pakisthan"]
+console.log("5 largest countries in worls ")
+for (let i =0 ;i<country.length;i++){
+    console.log(country[i])
+}
+country.push("japan")
+console.log(country)
+country.unshift("iceland")
+console.log(country)
+country.pop()
+console.log(country)
+country.shift()
+console.log(country)
+
+//logical operations 
 
 
 
