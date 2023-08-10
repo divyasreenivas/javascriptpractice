@@ -185,7 +185,21 @@ country.shift()
 console.log(country)
 
 //logical operations 
+let dateofmonth =87
+let weekday ="friday"
 
+if (dateofmonth ===87 &&  weekday === "friday" ){
+     console.log("smokeyface")
+}
+
+//rockpapersciccor
+let hand =["rock","paper","sciccor"]
+
+function game(){
+    let randomone = Math.floor(Math.random()*3)
+    return (hand[randomone])
+}
+console.log(game())
 
 
 
